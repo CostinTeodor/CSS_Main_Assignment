@@ -39,8 +39,7 @@ body {
     margin: auto;
 }
 
-.Hero,
-#Footer {
+.Hero, #Footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
@@ -85,8 +84,7 @@ a {
     ;
 }
 
-#ShortDescription p,
-li {
+#ShortDescription p, li {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -111,6 +109,9 @@ li {
     height: 30vh;
 }
 
+.MainFlex p{
+    padding-right: 3vw;
+}
 
 .InfoFlex {
     display: flex;
