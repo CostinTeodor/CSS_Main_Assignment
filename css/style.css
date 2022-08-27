@@ -5,21 +5,25 @@
     font-weight: lighter;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Black.ttf) format('truetype');
     font-weight: bolder;
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Regular.ttf) format('truetype');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Bold.ttf) format('truetype');
     font-weight: bold;
 }
+
 /* @font-face {
     font-family: 'Roboto';
     src: url(../fonts/Roboto-Italic.ttf) format('truetype');
@@ -31,29 +35,35 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
 body {
     margin: auto;
 }
 
 /* Header */
-.Hero, #Footer {
+.Hero,
+#Footer {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
 #HeaderLogo {
     font-size: 24px;
 }
+
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 header ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     width: 28rem;
 }
+
 header a {
     color: white;
     text-decoration: none;
@@ -68,6 +78,7 @@ header a {
     padding-left: 15vw;
     padding-right: 15vw;
 }
+
 #ShortDescription {
     font-size: 48px;
     font-weight: bolder;
@@ -76,10 +87,13 @@ header a {
     padding-right: 10vw;
     ;
 }
-#ShortDescription p, li {
+
+#ShortDescription p,
+li {
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .MainFlex button {
     background-color: #3882F6;
     color: white;
@@ -87,17 +101,20 @@ header a {
     border: 1px solid black;
     padding: 0.313rem 1.875rem;
 }
+
 .MainFlex {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
 }
+
 #MainImage {
     width: 40vw;
     height: 30vh;
 }
-.MainFlex p{
+
+.MainFlex p {
     padding-right: 3vw;
 }
 
@@ -108,24 +125,29 @@ header a {
     margin: auto 20vw;
     text-align: center;
 }
+
 #RandomInformation {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 5rem;
 }
+
 #RandomInformation h1 {
     margin: 1.25em;
 }
+
 .imageText img {
     width: 10vw;
     height: auto;
     border: 3px solid blue;
     border-radius: 10%;
 }
+
 .imageText {
     width: 13vw;
 }
+
 .imageText figcaption {
     text-align: center;
     margin: auto 2vw;
@@ -142,11 +164,13 @@ header a {
     align-items: flex-end;
     padding: 15vh 25vw;
 }
+
 #Testimonial h3 {
     margin-bottom: 0;
     font-style: italic;
     font-weight: lighter;
 }
+
 #Testimonial p {
     margin: 0;
     font-weight: bold;
@@ -164,6 +188,7 @@ header a {
     padding-left: 3vw;
     padding-right: 3vw;
 }
+
 #SignUp button {
     height: 10%;
     background-color: #3882F6;
@@ -173,17 +198,21 @@ header a {
     width: 5vw;
     height: auto;
 }
+
 #SignUpEncouragement {
     display: flex;
     flex-direction: column;
     margin: 1vh;
 }
+
 #SignUpEncouragement h4 {
     margin-bottom: 0;
 }
+
 #SignUpEncouragement p {
     margin-top: 0;
 }
+
 #Footer {
     display: flex;
     justify-content: center;
