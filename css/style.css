@@ -126,7 +126,7 @@ header a {
 .imageText {
     width: 13vw;
 }
-.imageText p {
+.imageText figcaption {
     text-align: center;
     margin: auto 2vw;
 
